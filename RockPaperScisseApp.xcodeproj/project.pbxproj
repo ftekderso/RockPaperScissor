@@ -18,6 +18,12 @@
 		6F89402B18C997B20081F699 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89402A18C997B20081F699 /* Default-568h@2x.png */; };
 		6F89402E18C997B20081F699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F89402D18C997B20081F699 /* ViewController.m */; };
 		6F89403118C997B20081F699 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F89402F18C997B20081F699 /* ViewController.xib */; };
+		6F89403E18C997D40081F699 /* paper left.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89403818C997D40081F699 /* paper left.png */; };
+		6F89403F18C997D40081F699 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89403918C997D40081F699 /* paper.png */; };
+		6F89404018C997D40081F699 /* rock left.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89403A18C997D40081F699 /* rock left.png */; };
+		6F89404118C997D40081F699 /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89403B18C997D40081F699 /* rock.png */; };
+		6F89404218C997D40081F699 /* scissors left.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89403C18C997D40081F699 /* scissors left.png */; };
+		6F89404318C997D40081F699 /* scissors.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89403D18C997D40081F699 /* scissors.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,12 @@
 		6F89402C18C997B20081F699 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6F89402D18C997B20081F699 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F89403018C997B20081F699 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6F89403818C997D40081F699 /* paper left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paper left.png"; sourceTree = "<group>"; };
+		6F89403918C997D40081F699 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		6F89403A18C997D40081F699 /* rock left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rock left.png"; sourceTree = "<group>"; };
+		6F89403B18C997D40081F699 /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		6F89403C18C997D40081F699 /* scissors left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scissors left.png"; sourceTree = "<group>"; };
+		6F89403D18C997D40081F699 /* scissors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scissors.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,7 @@
 		6F89401A18C997B20081F699 /* RockPaperScisseApp */ = {
 			isa = PBXGroup;
 			children = (
+				6F89403718C997D40081F699 /* images */,
 				6F89402318C997B20081F699 /* AppDelegate.h */,
 				6F89402418C997B20081F699 /* AppDelegate.m */,
 				6F89402C18C997B20081F699 /* ViewController.h */,
@@ -105,6 +118,19 @@
 				6F89402A18C997B20081F699 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F89403718C997D40081F699 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6F89403818C997D40081F699 /* paper left.png */,
+				6F89403918C997D40081F699 /* paper.png */,
+				6F89403A18C997D40081F699 /* rock left.png */,
+				6F89403B18C997D40081F699 /* rock.png */,
+				6F89403C18C997D40081F699 /* scissors left.png */,
+				6F89403D18C997D40081F699 /* scissors.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +189,12 @@
 				6F89402918C997B20081F699 /* Default@2x.png in Resources */,
 				6F89402B18C997B20081F699 /* Default-568h@2x.png in Resources */,
 				6F89403118C997B20081F699 /* ViewController.xib in Resources */,
+				6F89403E18C997D40081F699 /* paper left.png in Resources */,
+				6F89403F18C997D40081F699 /* paper.png in Resources */,
+				6F89404018C997D40081F699 /* rock left.png in Resources */,
+				6F89404118C997D40081F699 /* rock.png in Resources */,
+				6F89404218C997D40081F699 /* scissors left.png in Resources */,
+				6F89404318C997D40081F699 /* scissors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
