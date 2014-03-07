@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F89401518C997B20081F699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F89401418C997B20081F699 /* UIKit.framework */; };
+		6F89401718C997B20081F699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F89401618C997B20081F699 /* Foundation.framework */; };
+		6F89401918C997B20081F699 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F89401818C997B20081F699 /* CoreGraphics.framework */; };
+		6F89401F18C997B20081F699 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F89401D18C997B20081F699 /* InfoPlist.strings */; };
+		6F89402118C997B20081F699 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F89402018C997B20081F699 /* main.m */; };
+		6F89402518C997B20081F699 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F89402418C997B20081F699 /* AppDelegate.m */; };
+		6F89402718C997B20081F699 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89402618C997B20081F699 /* Default.png */; };
+		6F89402918C997B20081F699 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89402818C997B20081F699 /* Default@2x.png */; };
+		6F89402B18C997B20081F699 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F89402A18C997B20081F699 /* Default-568h@2x.png */; };
+		6F89402E18C997B20081F699 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F89402D18C997B20081F699 /* ViewController.m */; };
+		6F89403118C997B20081F699 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F89402F18C997B20081F699 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F89401018C997B20081F699 /* RockPaperScisseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperScisseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F89401418C997B20081F699 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F89401618C997B20081F699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F89401818C997B20081F699 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F89401C18C997B20081F699 /* RockPaperScisseApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockPaperScisseApp-Info.plist"; sourceTree = "<group>"; };
+		6F89401E18C997B20081F699 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F89402018C997B20081F699 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F89402218C997B20081F699 /* RockPaperScisseApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RockPaperScisseApp-Prefix.pch"; sourceTree = "<group>"; };
+		6F89402318C997B20081F699 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F89402418C997B20081F699 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F89402618C997B20081F699 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6F89402818C997B20081F699 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6F89402A18C997B20081F699 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6F89402C18C997B20081F699 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F89402D18C997B20081F699 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F89403018C997B20081F699 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F89400D18C997B20081F699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F89401518C997B20081F699 /* UIKit.framework in Frameworks */,
+				6F89401718C997B20081F699 /* Foundation.framework in Frameworks */,
+				6F89401918C997B20081F699 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F89400518C997B20081F699 = {
+			isa = PBXGroup;
+			children = (
+				6F89401A18C997B20081F699 /* RockPaperScisseApp */,
+				6F89401318C997B20081F699 /* Frameworks */,
+				6F89401118C997B20081F699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F89401118C997B20081F699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F89401018C997B20081F699 /* RockPaperScisseApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F89401318C997B20081F699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F89401418C997B20081F699 /* UIKit.framework */,
+				6F89401618C997B20081F699 /* Foundation.framework */,
+				6F89401818C997B20081F699 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F89401A18C997B20081F699 /* RockPaperScisseApp */ = {
+			isa = PBXGroup;
+			children = (
+				6F89402318C997B20081F699 /* AppDelegate.h */,
+				6F89402418C997B20081F699 /* AppDelegate.m */,
+				6F89402C18C997B20081F699 /* ViewController.h */,
+				6F89402D18C997B20081F699 /* ViewController.m */,
+				6F89402F18C997B20081F699 /* ViewController.xib */,
+				6F89401B18C997B20081F699 /* Supporting Files */,
+			);
+			path = RockPaperScisseApp;
+			sourceTree = "<group>";
+		};
+		6F89401B18C997B20081F699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F89401C18C997B20081F699 /* RockPaperScisseApp-Info.plist */,
+				6F89401D18C997B20081F699 /* InfoPlist.strings */,
+				6F89402018C997B20081F699 /* main.m */,
+				6F89402218C997B20081F699 /* RockPaperScisseApp-Prefix.pch */,
+				6F89402618C997B20081F699 /* Default.png */,
+				6F89402818C997B20081F699 /* Default@2x.png */,
+				6F89402A18C997B20081F699 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F89400F18C997B20081F699 /* RockPaperScisseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F89403418C997B20081F699 /* Build configuration list for PBXNativeTarget "RockPaperScisseApp" */;
+			buildPhases = (
+				6F89400C18C997B20081F699 /* Sources */,
+				6F89400D18C997B20081F699 /* Frameworks */,
+				6F89400E18C997B20081F699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperScisseApp;
+			productName = RockPaperScisseApp;
+			productReference = 6F89401018C997B20081F699 /* RockPaperScisseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F89400718C997B20081F699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Fikirte Derso";
+			};
+			buildConfigurationList = 6F89400A18C997B20081F699 /* Build configuration list for PBXProject "RockPaperScisseApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F89400518C997B20081F699;
+			productRefGroup = 6F89401118C997B20081F699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F89400F18C997B20081F699 /* RockPaperScisseApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F89400E18C997B20081F699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F89401F18C997B20081F699 /* InfoPlist.strings in Resources */,
+				6F89402718C997B20081F699 /* Default.png in Resources */,
+				6F89402918C997B20081F699 /* Default@2x.png in Resources */,
+				6F89402B18C997B20081F699 /* Default-568h@2x.png in Resources */,
+				6F89403118C997B20081F699 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F89400C18C997B20081F699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F89402118C997B20081F699 /* main.m in Sources */,
+				6F89402518C997B20081F699 /* AppDelegate.m in Sources */,
+				6F89402E18C997B20081F699 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F89401D18C997B20081F699 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F89401E18C997B20081F699 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F89402F18C997B20081F699 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F89403018C997B20081F699 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F89403218C997B20081F699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F89403318C997B20081F699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F89403518C997B20081F699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockPaperScisseApp/RockPaperScisseApp-Prefix.pch";
+				INFOPLIST_FILE = "RockPaperScisseApp/RockPaperScisseApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F89403618C997B20081F699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RockPaperScisseApp/RockPaperScisseApp-Prefix.pch";
+				INFOPLIST_FILE = "RockPaperScisseApp/RockPaperScisseApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F89400A18C997B20081F699 /* Build configuration list for PBXProject "RockPaperScisseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F89403218C997B20081F699 /* Debug */,
+				6F89403318C997B20081F699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F89403418C997B20081F699 /* Build configuration list for PBXNativeTarget "RockPaperScisseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F89403518C997B20081F699 /* Debug */,
+				6F89403618C997B20081F699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F89400718C997B20081F699 /* Project object */;
+}
